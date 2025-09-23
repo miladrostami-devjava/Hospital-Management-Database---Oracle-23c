@@ -8,6 +8,19 @@ The database is structured around a **central table** named `hm_hospital_entitie
 
 ---
 
+
+
+
+
+Database Migration
+
+⚠️ Note: This Hospital Management Database was originally designed for Oracle 23c, but it has also been migrated to PostgreSQL.
+ All tables, sequences, constraints, and relationships have been adapted to PostgreSQL standards while preserving the original 
+ business logic and structure. Users can now run the database in PostgreSQL using the provided scripts in the postgresql folder.
+
+
+
+
 ## Features
 
 * Fully relational database structure with **foreign key constraints**, **check constraints**, and **identity columns**.
