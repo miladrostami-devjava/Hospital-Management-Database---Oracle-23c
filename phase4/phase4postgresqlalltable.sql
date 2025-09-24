@@ -2403,7 +2403,7 @@ CREATE TABLE core.hm_pharmacy_transactions_all (
 );
 
 
-select * from core.hm_pharmacy_transactions_all;
+select * from core.hm_donations;
 
 
 
@@ -2784,8 +2784,7 @@ CREATE TABLE core.hm_physiotherapists (
 
 
 
-SELECT *
-FROM core.hm_physiotherapy_sessions;
+SELECT * FROM core.hm_sustainability_initiatives;
 
 
 
